@@ -1,0 +1,9 @@
+{
+  "name": "livetest",
+  "version": "0.1.0",
+  "description": "Drive the running app in a real browser (Playwright MCP) to test a feature end-to-end, inspect live state, verify with evidence, then clean up. App-agnostic.",
+  "author": {
+    "name": "MKToronto"
+  },
+  "license": "MIT"
+}

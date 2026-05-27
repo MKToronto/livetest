@@ -1,0 +1,24 @@
+{
+  "name": "livetest",
+  "owner": {
+    "name": "MKToronto"
+  },
+  "metadata": {
+    "description": "Claude Code plugin that drives the running app in a real browser via the Playwright MCP server to test a feature end-to-end, inspect live state, verify with evidence, and clean up. App-agnostic."
+  },
+  "plugins": [
+    {
+      "name": "livetest",
+      "source": "./",
+      "description": "Drive the running app in a real browser (Playwright MCP) to test a feature end-to-end, inspect live state, verify with evidence, then clean up. App-agnostic.",
+      "version": "0.1.0",
+      "author": {
+        "name": "MKToronto"
+      },
+      "repository": "https://github.com/MKToronto/livetest",
+      "license": "MIT",
+      "keywords": ["claude-code", "testing", "e2e", "playwright", "browser", "mcp", "live-testing"],
+      "category": "testing"
+    }
+  ]
+}
